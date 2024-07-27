@@ -42,8 +42,8 @@ In this step, IntelliJ uses the **`Java Compiler`** available in the `JDK`,
 ![img_1.png](img_1.png)
 
 `JVM` in `JRE` **takes our Java Byte Code and translates it to native code for the underliying OS.**
-1. **To execute a .class byte code**, step up two levels and **run `java <byte-code-file-path>`  ,eg: `java com.deepak.Main`.**
-   - `Main` in `java com.deepak.Main` is for **Main.class**
+1. **To invoke JVM or execute a .class byte code manually**, step up two levels and **run `java <file-path-to-class>`  ,eg: `java com.basics.Main`.**
+   - `Main` in `java com.basics.Main` is for **Main.class**
 
 
 - This architecture is the reason why java applications are **portable** or **platform independent.**
