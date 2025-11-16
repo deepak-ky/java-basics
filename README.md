@@ -93,7 +93,14 @@ Java needs: 1. Correct classpath\
 Example:
 
     cd src/main/java
+  
     java org.kd4.randomPlayground.argsStringArray yello 1 2
+
+    /* 
+    arguments are also passed here, which are "yello", "1" and "2", 
+    if you want to pass arguments with space, then wrap them in quotes, for eg.
+    yello "hello again" 1 "2 and 3" 4
+    */
 
 If running from one level above root:
 
